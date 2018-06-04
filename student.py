@@ -5,7 +5,7 @@ class Student:
 
     def __init__(self, name, lastname, student_id=1234):
         self.name = name
-        self.lastname = lastname
+        self.last_name = lastname
         self.student_id = student_id
         students.append(self)
 
